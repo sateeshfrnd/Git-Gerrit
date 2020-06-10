@@ -11,6 +11,8 @@ Once everything is installed, you should be able to run git on the command line.
 ## Configuring the Command Prompt on Windows
 
 #### First Time Git Configuration
+Copy the '.bash_profile' and folder '.git-command-prompt-setup' to your home folder (eg: C:\Users\satish)
+
 Before you can start using Git, you need to configure it. Run each of the following lines on the command line to make sure everything is set up.
 
 **Sets up Git with your name**
