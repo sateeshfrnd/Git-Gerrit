@@ -2,8 +2,8 @@
 
 ## Installing Git
 To download Git:
- 1. go to https://git-scm.com/downloads
- 2. download the software for Windows
+ 1. Go to https://git-scm.com/downloads
+ 2. Download the software for Windows
  3. Install Git choosing all of the default options
 
 Once everything is installed, you should be able to run git on the command line. If it displays the usage information, then you're good to go!
