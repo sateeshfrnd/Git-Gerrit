@@ -27,6 +27,10 @@ When working with Git, the Working Directory is also different from the command 
 #### Staging Area / Staging Index / Index
 A file in the Git directory that stores information about what will go into your next commit. You can think of the **staging area** as a prep table where Git will take the next commit. Files on the Staging Index are poised to be added to the repository.
 
+#### Staging, Staged and Unstage
+The act of moving a file from the Working Directory to the Staging Index is called **"staging"**. 
+If a file has been moved, then it has been **"staged"**. Moving a file from the Staging Index back to the Working Directory will be **unstage** the file.
+
 #### SHA
 A **SHA** is basically an ID number for each commit. Here's what a commit's SHA might look like: *e2adf8ae3e2e4ed40add75cc44cf9d0a869afeb6*.
 
