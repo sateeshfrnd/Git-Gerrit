@@ -1,4 +1,4 @@
-# git log
+# View Commits
 Shows the detailed information about the existing commits of a repository.
 
 By default, this command displays the **SHA,author,date,message** of every commit in the repository.
@@ -44,6 +44,16 @@ Git uses the command line pager, Less, to page through all of the information. T
    - the actual changes that have been made in the commit
    
  **git log -p -w** will show the patch information, but will not highlight lines where only *whitespace* changes have occurred.
+ 
+ ## --graph and --all flags
+ The --graph flag adds the bullets and lines to the leftmost part of the output. This shows the actual branching that's happening. The --all flag is what displays all of the branches in the repository.
+  
+ Running this command will show all branches and commits in the repository:
+ ```
+  $ git log --oneline --decorate --graph --all
+ ```
+
+ 
  
  
  
