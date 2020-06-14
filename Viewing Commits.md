@@ -53,7 +53,32 @@ Git uses the command line pager, Less, to page through all of the information. T
   $ git log --oneline --decorate --graph --all
  ```
 
+## Filter By Author
+We can display all of the commits by an author is to use the regular git log command but include the --author flag to filter the commits to the provided author.
+```
+$ git log --author="Tejaswini"
+```
+
+## Filter commits with patteren maching in commit
+We can filter down to just the commits that reference the word "bug". We can do that with either of the following commands:
+```
+$ git log --grep="bug fix"
+$ git log --grep "bug fix"
+```
  
+## Group By Commit Author
+Using the **git shortlog**, we can get how many commits each contributor has added to the repository.
+```
+ $ git shortlog
+```
+Displays an alphabetical list of names and the commit messages that go along with them.
+ 
+If we just want to see just the number of commits that each developer has made, we can add a couple of flags: -s to show just the number of commits (rather than each commit's message) and -n to sort them numerically (rather than alphabetically by author name).
+
+```
+$ git shortlog -s -n
+```
+
  
  
  
